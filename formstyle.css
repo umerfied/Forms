@@ -1,0 +1,38 @@
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+#email-label{
+    padding-top: 0%;
+    padding-bottom: 6px ;
+    
+}
+input[type=email]{
+    margin-bottom: 8px;
+    border-color: blue;
+    border-radius: 12px;
+    background-color: blanchedalmond;
+    height: 20px;
+    width: 45%;
+}
+input[type=email]:focus{
+        animation-name: example;
+        transition: width 1s height 2s transfrom 2s; 
+        border-color: aqua;
+        background-color: white;
+       
+}
+/* div {
+    padding-right: 20%;
+    margin-right: 130px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 1s;
+  } */
+
+form {
+margin-left: 2px;
+}
+.email-label{
+    font-size: large;
+}
