@@ -8,8 +8,16 @@
 </head>
 <body>
     <form action="action-process.php"method="POST">
+        <label for="fname"><big>First Name :</big></label><br>
+        <input type="text" id="fname"name="fname" required><br>
+        <label for="lname"><big>Last Name :</big></label><br>
+        <input type="text" id="lname"name="lname" required><br>
+        <label for="dob"><big>Date of Birth</big></label><br>
+        <input type="date" id="dob"name="date_of_birth" required><br>
         <label for="email"><big>Email :</big></label><br>
-        <input type="email" id="email"name="email" ><br>
+        <input type="email" id="email"name="email" required><br>
+        <label for="password"><big>Password :</big></label><br>
+        <input type="password" name="password" id="password" required><br>
         <input type="submit">
     </form>
     

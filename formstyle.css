@@ -7,7 +7,7 @@
     padding-bottom: 6px ;
     
 }
-input[type=email]{
+input{
     margin-bottom: 8px;
     border-color: blue;
     border-radius: 12px;
@@ -15,7 +15,7 @@ input[type=email]{
     height: 20px;
     width: 45%;
 }
-input[type=email]:focus{
+input:focus{
         animation-name: example;
         transition: width 1s height 2s transfrom 2s; 
         border-color: aqua;
