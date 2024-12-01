@@ -1,8 +1,8 @@
 
 <?php
-$username = 'postgres';
-$password = '123';
-$dbname = 'email_db';
+$username = 'your username';
+$password = 'your password';
+$dbname = 'yourdb';
 $hostname = 'localhost';
 $conn = pg_connect("host=$hostname dbname=$dbname user=$username password=$password");
 if(!$conn){   
